@@ -95,6 +95,7 @@ a{
     background-color: var(--background-color-full-white);
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container{
@@ -408,9 +409,14 @@ margin-right: 30px;
     width: 370px;
     margin: 15px;
     background-color: var(--background-color-full-white);
-    border: solid 1px color red;
+    
 
     background-color: var(--background-color-full-white);
+}
+.border-div{
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .portfolio-project-list-title{
     color: var(--text-color-black);
